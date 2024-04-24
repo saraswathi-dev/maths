@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Hello World
+
+    <script>
+        var str = "          This course is Javascript;         ";
+        console.log(str);
+        console.log("To make the letters to uppercase we use : toUppercase()" + " " + "--->" + " " + str.toUpperCase());
+        console.log("To make the letters to lowercase we use : toLowercase()" + " " + "--->" + " " + str.toLowerCase());
+        console.log("To test with starting letter or word we use : startsWith()" + " " + "--->" + " " + str.startsWith("T"));
+        console.log("To test with starting letter or word we use : startsWith()" + " " + "--->" + " " + str.startsWith("t"));
+        console.log("To test with starting letter or word we use : startsWith()" + " " + "--->" + " " + str.startsWith("This"));
+        console.log("To test with starting letter or word we use : startsWith()" + " " + "--->" + " " + str.startsWith("is"));
+        console.log("To split the word we use : split()" + " " + "--->" + " " + str.split(""));
+        console.log("To split the word we use : split()" + " " + "--->" + " " + str.split(" "));
+        // console.log("To split the word we use : split()" + " " + "--->" + " " + str.split('').jion(c));
+        console.log("To find the index of first occured letter we use : indexOf()" + " " + "--->" + " " + str.indexOf("s"));
+        console.log("To find the index of last occured letter we use : lastIndexOf()" + " " + "--->" + " " + str.lastIndexOf("s"));
+        console.log("To find the character at any  index of sentence or word we use : charAt()" + " " + "--->" + " " + str.charAt(9));
+        console.log("To find the slice at  any  index of sentence or word we use : slice(from,to)" + " " + "--->" + " " + str.slice(5,19));
+        console.log("To find the substring at  any  index of sentence or word we use : substring(from,to)" + " " + "--->" + " " + str.substring(5,11));
+        console.log("To find the length of the sentence or word or string  we use : length" + " " + "--->" + " " + str.length);
+        console.log("to add any words between sentence we use : concat()" + " " + "--->" + str.concat("It is called as language of web;"));
+        console.log(str.trim())
+
+
+    </script>
+</body>
+
+</html>
